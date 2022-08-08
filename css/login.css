@@ -1,5 +1,5 @@
 body{
-    margin: 10px;
+    margin: 20px;
     font-family: Arial, Helvetica, sans-serif;
     background-color: #F7F7F7
 }
@@ -7,32 +7,66 @@ body{
     background-color:#FFFFFF;
     position: absolute;
     top: 40%;
-    left: 3.5%;
-    width: 380px;
-    height: 330px;
+    left: 9.5%;
+    width: 500px;
+    height: 500px;
     padding: 20px;
     box-shadow: 0px 3px 6px #000000;
     }
 #usuario{
+    font-size: 30px;
+    position: relative;
     top:20px;
-    width: 370px; 
-    height: 50px;
+    width: 490px; 
+    height: 80px;
 }
 #senha{
+    font-size: 30px;
+    position: relative;
     top:20px;
-    width: 370px; 
-    height: 50px;
+    width: 490px; 
+    height: 80px;
 }
 #button{
+    font-size: 30px;
     margin-top:50px;
     margin-left:110px;
-    width: 150px;
-    height: 50px;
+    width: 250px;
+    height: 80px;
 }
 
   img {
-    margin-top: 20px;
+    margin-left: 150px;
+    margin-top: 50px;
     width: 300px;
     height: 300px;
     
+  }
+  .nome_logo{
+    margin-top: 60px;
+    position: absolute;
+    font-size: 150px;
+    margin-left: 60%;
+    margin-bottom: 30%;
+    color: #37E2D5;
+
+  }
+  .letra_r{
+    margin-top: 60px;
+    position: absolute;
+    font-size: 150px;
+    margin-left: 55.5%;
+    margin-bottom: 30%;
+    color: #FFB6C1;
+  }
+  .texto{
+    position: absolute;
+    margin-left: 55.5%;
+    margin-top: 230px;
+    font-size: 50px;
+  }
+  .texto_cadastro{
+    font-size: 30px;
+    margin-left: 250px;
+    margin-top: 650px;
   }
