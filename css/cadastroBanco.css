@@ -1,0 +1,46 @@
+body{
+    margin: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #F7F7F7; 
+     
+}
+
+.container{
+    background-color:#ffffff;
+    position: absolute;
+    top: 10%;
+    left: 37%;
+    width: 400px;
+    height: 700px;
+    padding: 20px;
+    box-shadow: 0px 3px 6px #000000;
+    border-radius: 50px;
+}
+#nome{
+}
+#ultima_doacao{
+    
+}
+#email{
+  
+}
+#cidade{
+    
+}
+#confirmar_email{
+    
+}
+#senha{
+    
+
+}
+#tipo_sanguineo{
+    
+}
+#confirmar_senha{
+    
+}
+
+#button{
+    
+}
