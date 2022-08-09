@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="/css/tela.css" media="screen" />
+    <title>Document</title>
+</head>
+<body>
+    <div class="logo">
+        <img src="/img/redrum.PNG">
+        <h1 class="cadastro">Cadastro</h1>
+    </div>
+    <div class="fieldsetdiv">
+            <button class="left">
+                <span>Pessoa física</span>
+            </button>
+            <button class="right">
+                <span>Pessoa jurídica</span>
+            </button>
+    </div>
+    <footer>
+        <button class="back">
+            <span>Voltar</span>
+        </button>
+    </footer>
+</body>
+</html>
