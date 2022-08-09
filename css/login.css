@@ -1,15 +1,16 @@
 body{
-    margin: 20px;
+    margin: 10px;
     font-family: Arial, Helvetica, sans-serif;
-    background-color: #F7F7F7
+    background-color: #F7F7F7;
+    
 }
 .container{
     background-color:#FFFFFF;
     position: absolute;
-    top: 40%;
+    top: 30%;
     left: 9.5%;
-    width: 500px;
-    height: 500px;
+    width: 400px;
+    height: 400px;
     padding: 20px;
     box-shadow: 0px 3px 6px #000000;
     }
@@ -17,20 +18,20 @@ body{
     font-size: 30px;
     position: relative;
     top:20px;
-    width: 490px; 
+    width: 390px; 
     height: 80px;
 }
 #senha{
     font-size: 30px;
     position: relative;
     top:20px;
-    width: 490px; 
+    width: 390px; 
     height: 80px;
 }
 #button{
     font-size: 30px;
     margin-top:50px;
-    margin-left:110px;
+    margin-left:75px;
     width: 250px;
     height: 80px;
     box-shadow: 0px 3px 6px #000000;
@@ -38,9 +39,10 @@ body{
 
   img {
     margin-left: 150px;
-    margin-top: 50px;
-    width: 300px;
-    height: 300px;
+    margin-top: 30px;
+    width: 200px;
+    height: 200px;
+    filter: blur(1px);
     
   }
   .nome_logo{
@@ -68,8 +70,8 @@ body{
   }
   .texto_cadastro{
     font-size: 30px;
-    margin-left: 250px;
-    margin-top: 650px;
+    margin-left: 170px;
+    margin-top: 500px;
   }
   @media screen and (max-width :1400px){
     .container{
