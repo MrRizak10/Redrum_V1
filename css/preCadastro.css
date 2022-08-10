@@ -6,7 +6,6 @@ h1.cadastro {
     text-align: center;
     font-size: 200px;
     color: #3f3f3f;
-    float: right;
     margin-right: 660px;
 }
 
@@ -152,7 +151,7 @@ button.back {
     margin-top: 230px;
 }
 
-@media screen and (min-width :1300px){
+@media screen and (min-width :1400px){
     .body{
       top: 35%;
       width: 300px;
@@ -191,3 +190,27 @@ button.back {
       }
     
   }
+  @media screen and (max-width :1400px){
+    h1.cadastro{
+        margin-top:-15% ;
+        margin-right: -250px;
+        font-size: 180px;
+    }
+    img {
+        margin-top:1%;
+        width: 200px;
+        height: 200px;
+        
+    }
+    button.left {
+        margin-top: 1px;
+  
+  }
+  div.fieldsetdiv {
+    margin-left: 12%;
+    margin-top: -8%;
+}
+ button.back{
+    margin-top: -285px;
+ }
+}

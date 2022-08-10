@@ -79,7 +79,7 @@ body{
     margin-left: 170px;
     margin-top: 500px;
   }
-  @media screen and (max-width :1400px){
+  @media screen and (max-width :2000px){
     .container{
       top: 35%;
       width: 300px;
@@ -107,8 +107,8 @@ body{
     }
     .texto_cadastro{
       font-size: 20px;
-      margin-left: 110px;
-      margin-top: 350px;
+      margin-left: 140px;
+      margin-top: 370px;
     }
     .nome_logo{
       font-size: 100px
