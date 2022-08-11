@@ -6,6 +6,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="/css/sangue.css" media="screen" />
     <link rel="stylesheet" type="text/css" href="/css/sangue2.css" media="screen" />
+    <link rel="stylesheet" type="text/css" href="/css/sangue3.css" media="screen" />
+    <link rel="stylesheet" type="text/css" href="/css/sangue4.css" media="screen" />
+    <link rel="stylesheet" type="text/css" href="/css/sangue5.css" media="screen" />
+    <link rel="stylesheet" type="text/css" href="/css/sangue6.css" media="screen" />
+    <link rel="stylesheet" type="text/css" href="/css/sangue7.css" media="screen" />
+    <link rel="stylesheet" type="text/css" href="/css/sangue8.css" media="screen" />
     <title>Document</title>
 </head>
 <div class="container">
@@ -48,6 +54,126 @@
         </div>
     </div>
 </div>
+<div class="container_3">
+    <div class="urna_3">
+        <div class="circulo_3">
+            <div class="barra_3">
+                <svg class="svg3">
+                    <circle cx="70" cy="70" r="70"> </circle>
+                    <circle cx="70" cy="70" r="70"> </circle>
+                </svg>
+                <!-- votos -->
+                <div class="votos_3">
+                    <h3 class="quantidade_3">0%</h3>
+                </div>
+            </div>
+            <h3 class="titulo_3">votos computados</h3>
+            <div class="painel_3">
+                <button class="votar_3">A+</button>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="container_4">
+    <div class="urna_4">
+        <div class="circulo_4">
+            <div class="barra_4">
+                <svg class="svg4">
+                    <circle cx="70" cy="70" r="70"> </circle>
+                    <circle cx="70" cy="70" r="70"> </circle>
+                </svg>
+                <!-- votos -->
+                <div class="votos_4">
+                    <h3 class="quantidade_4">0%</h3>
+                </div>
+            </div>
+            <h3 class="titulo_4">votos computados</h3>
+            <div class="painel_4">
+                <button class="votar_4">A+</button>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="container_5">
+    <div class="urna_5">
+        <div class="circulo_5">
+            <div class="barra_5">
+                <svg class="svg5">
+                    <circle cx="70" cy="70" r="70"> </circle>
+                    <circle cx="70" cy="70" r="70"> </circle>
+                </svg>
+                <!-- votos -->
+                <div class="votos_5">
+                    <h3 class="quantidade_5">0%</h3>
+                </div>
+            </div>
+            <h3 class="titulo_5">votos computados</h3>
+            <div class="painel_5">
+                <button class="votar_5">A+</button>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="container_6">
+    <div class="urna_6">
+        <div class="circulo_6">
+            <div class="barra_6">
+                <svg class="svg6">
+                    <circle cx="70" cy="70" r="70"> </circle>
+                    <circle cx="70" cy="70" r="70"> </circle>
+                </svg>
+                <!-- votos -->
+                <div class="votos_6">
+                    <h3 class="quantidade_6">0%</h3>
+                </div>
+            </div>
+            <h3 class="titulo_6">votos computados</h3>
+            <div class="painel_6">
+                <button class="votar_6">A+</button>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="container_7">
+    <div class="urna_7">
+        <div class="circulo_7">
+            <div class="barra_7">
+                <svg class="svg7">
+                    <circle cx="70" cy="70" r="70"> </circle>
+                    <circle cx="70" cy="70" r="70"> </circle>
+                </svg>
+                <!-- votos -->
+                <div class="votos_7">
+                    <h3 class="quantidade_7">0%</h3>
+                </div>
+            </div>
+            <h3 class="titulo_7">votos computados</h3>
+            <div class="painel_7">
+                <button class="votar_7">A+</button>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="container_8">
+    <div class="urna_8">
+        <div class="circulo_8">
+            <div class="barra_8">
+                <svg class="svg8">
+                    <circle cx="70" cy="70" r="70"> </circle>
+                    <circle cx="70" cy="70" r="70"> </circle>
+                </svg>
+                <!-- votos -->
+                <div class="votos_8">
+                    <h3 class="quantidade_8">0%</h3>
+                </div>
+            </div>
+            <h3 class="titulo_8">votos computados</h3>
+            <div class="painel_8">
+                <button class="votar_8">A+</button>
+            </div>
+        </div>
+    </div>
+</div>
 <!-- COMPUTAR VOTOS -->
 <script>
      let votos=0;
@@ -69,6 +195,71 @@
             votos_2++;
             quantidade_2.innerHTML=`${votos_2}%`;
             document.documentElement.style.setProperty('--porcento_2',votos_2);
+        }          
+    });
+
+     let votos_3=0;
+    let quantidade_3 = document.querySelector('.quantidade_3');
+    const botao_3 = document.querySelector('.votar_3');
+    botao_3.addEventListener('click',function(){
+        if(votos_3 <100){
+            votos_3++;
+            quantidade_3.innerHTML=`${votos_3}%`;
+            document.documentElement.style.setProperty('--porcento_3',votos_3);
+        }          
+    });
+
+    let votos_4=0;
+    let quantidade_4 = document.querySelector('.quantidade_4');
+    const botao_4 = document.querySelector('.votar_4');
+    botao_4.addEventListener('click',function(){
+        if(votos_4 <100){
+            votos_4++;
+            quantidade_4.innerHTML=`${votos_4}%`;
+            document.documentElement.style.setProperty('--porcento_4',votos_4);
+        }          
+    });
+    let votos_5=0;
+    let quantidade_5 = document.querySelector('.quantidade_5');
+    const botao_5 = document.querySelector('.votar_5');
+    botao_5.addEventListener('click',function(){
+        if(votos_5 <100){
+            votos_5++;
+            quantidade_5.innerHTML=`${votos_5}%`;
+            document.documentElement.style.setProperty('--porcento_5',votos_5);
+        }          
+    });
+
+    let votos_6=0;
+    let quantidade_6 = document.querySelector('.quantidade_6');
+    const botao_6 = document.querySelector('.votar_6');
+    botao_6.addEventListener('click',function(){
+        if(votos_6 <100){
+            votos_6++;
+            quantidade_6.innerHTML=`${votos_6}%`;
+            document.documentElement.style.setProperty('--porcento_6',votos_6);
+        }          
+    });
+
+     let votos_7=0;
+    let quantidade_7 = document.querySelector('.quantidade_7');
+    const botao_7 = document.querySelector('.votar_7');
+    botao_7.addEventListener('click',function(){
+        if(votos_7 <100){
+            votos_7++;
+            quantidade_7.innerHTML=`${votos_7}%`;
+            document.documentElement.style.setProperty('--porcento_7',votos_7);
+        }          
+    });
+
+    let votos_8=0;
+    let quantidade_8 = document.querySelector('.quantidade_8');
+    const botao_8 = document.querySelector('.votar_8');
+    botao_8.addEventListener('click',function(){
+        if(votos_8 <100){
+            votos_8++;
+            quantidade_8.innerHTML=`${votos_8}%`;
+            document.documentElement.style.setProperty('--porcento_8',votos_8);
         }          
     });
 </script>
