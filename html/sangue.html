@@ -42,7 +42,7 @@
                 </div>
             </div>
             <h3 class="titulo_2">votos computados</h3>
-            <div class="painel">
+            <div class="painel_2">
                 <button class="votar_2">A+</button>
             </div>
         </div>
@@ -65,10 +65,10 @@
     let quantidade_2 = document.querySelector('.quantidade_2');
     const botao_2 = document.querySelector('.votar_2');
     botao_2.addEventListener('click',function(){
-        if(votos <100){
-            votos++;
-            quantidade_2.innerHTML=`${votos}%`;
-            document.documentElement.style.setProperty('--porcento_2',votos);
+        if(votos_2 <100){
+            votos_2++;
+            quantidade_2.innerHTML=`${votos_2}%`;
+            document.documentElement.style.setProperty('--porcento_2',votos_2);
         }          
     });
 </script>
