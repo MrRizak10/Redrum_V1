@@ -6,7 +6,7 @@ h1.cadastro {
     text-align: center;
     font-size: 200px;
     color: #3f3f3f;
-    margin-right: 660px;
+    margin-left: 50px;
 }
 
 img {
@@ -151,7 +151,7 @@ button.back {
     margin-top: 230px;
 }
 
-@media screen and (min-width :1400px){
+@media screen and (max-width :1800px){
     .body{
       top: 35%;
       width: 300px;
@@ -193,7 +193,7 @@ button.back {
   @media screen and (max-width :1400px){
     h1.cadastro{
         margin-top:-15% ;
-        margin-right: -250px;
+        margin-left: 450px;
         font-size: 180px;
     }
     img {
