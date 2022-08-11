@@ -150,6 +150,32 @@ button.back {
     border-radius: 15px;
     margin-top: 230px;
 }
+button.back::before {
+    content: '';
+    position: absolute;
+    display: block;
+    top: 0;
+    left: 50px;
+    width: 70%;
+    height: 100%;
+    background-color: linear-gradient (
+        90deg, transparent,
+        #ffffff75, transparent);
+    transition: all 1s;
+    z-index: -1;
+    transform: 
+    translateX(-120px),
+    skew(-28deg);
+}
+
+button.back:hover::before {
+    transform: translateX(300px),
+                skew(-28deg);
+}
+
+button.back:hover {
+    background: #00f7ff;
+}
 
 @media screen and (max-width :1800px){
     .body{
