@@ -240,3 +240,31 @@ button.back:hover {
     margin-top: -285px;
  }
 }
+
+@media screen and (min-width :1900px){
+    h1.cadastro{
+        margin-top:-12% ;
+        margin-left: 10px;
+        font-size: 180px;
+    }
+    img {
+        margin-top:1%;
+        width: 200px;
+        height: 200px;
+    }
+    button.left {
+        margin-top: 1px;
+  
+  }
+  div.fieldsetdiv {
+    margin-left: 25%;
+    margin-top: 1%;
+}
+ button.back{
+    margin-top: -100px;
+ }
+ div.logo {
+    margin-left: 200px;
+    margin-top: 60px
+ }
+}
