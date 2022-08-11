@@ -177,7 +177,7 @@ button.back:hover {
     background: #00f7ff;
 }
 
-@media screen and (max-width :1800px){
+/* @media screen and (max-width :1800px){
     .body{
       top: 35%;
       width: 300px;
@@ -215,7 +215,7 @@ button.back:hover {
         margin-right: 100%;
       }
     
-  }
+  } */
   @media screen and (max-width :1400px){
     h1.cadastro{
         margin-top:-15% ;
@@ -241,7 +241,7 @@ button.back:hover {
  }
 }
 
-@media screen and (min-width :1900px){
+@media screen and (min-width :1879px){
     h1.cadastro{
         margin-top:-12% ;
         margin-left: 10px;

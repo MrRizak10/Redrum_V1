@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="/css/sangue.css" media="screen" />
+    <link rel="stylesheet" type="text/css" href="/css/sangue2.css" media="screen" />
+    <title>Document</title>
+</head>
+<div class="container">
+    <div class="urna">
+        <div class="circulo">
+            <div class="barra">
+                <svg class="svg1">
+                    <circle cx="70" cy="70" r="70"> </circle>
+                    <circle cx="70" cy="70" r="70"> </circle>
+                </svg>
+                <!-- votos -->
+                <div class="votos">
+                    <h3 class="quantidade">0%</h3>
+                </div>
+            </div>
+            <h3 class="titulo">votos computados</h3>
+            <div class="painel">
+                <button class="votar">A+</button>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="container_2">
+    <div class="urna_2">
+        <div class="circulo_2">
+            <div class="barra_2">
+                <svg class="svg2">
+                    <circle cx="70" cy="70" r="70"> </circle>
+                    <circle cx="70" cy="70" r="70"> </circle>
+                </svg>
+                <!-- votos -->
+                <div class="votos_2">
+                    <h3 class="quantidade_2">0%</h3>
+                </div>
+            </div>
+            <h3 class="titulo_2">votos computados</h3>
+            <div class="painel">
+                <button class="votar_2">A+</button>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- COMPUTAR VOTOS -->
+<script>
+     let votos=0;
+    let quantidade = document.querySelector('.quantidade');
+    const botao = document.querySelector('.votar');
+    botao.addEventListener('click',function(){
+        if(votos <100){
+            votos++;
+            quantidade.innerHTML=`${votos}%`;
+            document.documentElement.style.setProperty('--porcento',votos);
+        }          
+    });
+
+    let votos_2=0;
+    let quantidade_2 = document.querySelector('.quantidade_2');
+    const botao_2 = document.querySelector('.votar_2');
+    botao_2.addEventListener('click',function(){
+        if(votos <100){
+            votos++;
+            quantidade_2.innerHTML=`${votos}%`;
+            document.documentElement.style.setProperty('--porcento_2',votos);
+        }          
+    });
+</script>
+</body>
+
+</html>
