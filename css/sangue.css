@@ -17,6 +17,8 @@ body{
     width: 900px;
     display: flex;
     justify-content: center;
+    left: 10%;
+    margin-top: 1%;
 }
 
 .container .urna{
@@ -117,6 +119,7 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-wrap: wrap;
 }
 
 .painel button{

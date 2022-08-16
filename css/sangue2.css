@@ -7,6 +7,8 @@
     width: 900px;
     display: flex;
     justify-content: center;
+    left: 20%;
+    margin-top: 1%;
 }
 .container_2 .urna_2{
     position: relative;
@@ -99,6 +101,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-wrap: wrap;
 }
 .painel_2 button{
     margin-top: 20px;
