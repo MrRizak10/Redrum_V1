@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="/css/feed_fisica.css" media="screen"/>
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <div class="nome">
+            <label>Bruno Rizak ferreira</label>
+        </div>
+        <div class="sangue">
+            <label >O-</label>
+        </div>
+        <div class="cidade">
+            <label>
+                Esteio
+            </label>
+            <div class="estado">
+                <label> RS</label>
+            </div>
+            <div class="periodo">
+                <label>Doação Realizada <br>por Periodo:<br></label>
+            </div>
+            <div class="status">
+                <label> Status : Frequente</label>
+
+            </div>
+
+        </div>
+    </div>
+        <div class="max-width">
+            <div class="imagemContainer">
+               <img src="/img/imagem_usuario.png" alt=" selecione uma imagem" id="imgFoto"> 
+            </div>
+            <input type="file" id="imagem_usuario" name="imagem_usuario" accept="image/*" >
+        </div>    
+       
+
+
+    <script>
+        let photo =document.getElementById('imgFoto');
+        let file =document.getElementById('imagem_usuario');
+
+        photo.addEventListener('click',() =>{
+            file.click();
+        });
+    </script>
+</body>
+</html>

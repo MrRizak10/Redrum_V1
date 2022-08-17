@@ -1,0 +1,136 @@
+
+*{
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+    border:none;
+}
+input[type='file']{
+    display: none;
+}
+
+.max-width{
+    max-width: 500px;
+    width: 100%;
+}
+.container{
+    
+    position: absolute;
+    top: 10%;
+    left: 1.5%;
+    width: 300px;
+    height: 70%;
+    padding: 20px;
+    border: 5px solid rgb(137, 137, 137);
+    border-radius: 16px;
+}
+.nome{
+    position: relative;
+    top: 40%;
+    left: 10px;
+    font-size: 20px;
+}
+.sangue{
+    position: relative;
+    top: 44%;
+    left: 10px;
+    font-size: 20px;
+
+}
+.cidade{
+    position: relative;
+    top: 38%;
+    left: 70px;
+    font-size: 20px;
+}
+.estado{
+    position: relative;
+    left: 85px;
+    top: -23px;
+    font-size: 20px;
+
+}
+.periodo{
+    position: relative;
+    right: 70px;
+    font-size: 20px;
+
+}
+.status{
+    position: relative;
+    right: 70px;
+    top: 15px;
+    font-size: 20px;
+
+}
+    
+#imgFoto{
+    
+    position: relative;
+    right: 117%;
+    margin-top: 30%;
+    max-width: 150px;
+    width: 100%;
+    padding: 10px;
+    background-color: #eee;
+    border: 5px solid #ccc;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: background .3s;
+}
+#imgFoto:hover{
+    background-color: rgb(180,180,180);
+    border: 5px solid #111;
+}
+@media screen and (max-width :1800px){
+    .container{
+        top: 15%;
+        width: 250px;
+        height: 70%;
+    }
+
+    #imgFoto{
+        right: 65%;
+        max-width: 100px;
+        margin-top: 30%;
+    }
+    .nome{
+        position: relative;
+        top: 40%;
+        left: 10px;
+        font-size: 20px;
+    }
+    .sangue{
+        position: relative;
+        top: 44%;
+        left: 10px;
+        font-size: 20px;
+    
+    }
+    .cidade{
+        position: relative;
+        top: 38%;
+        left: 70px;
+        font-size: 20px;
+    }
+    .estado{
+        position: relative;
+        left: 85px;
+        top: -23px;
+        font-size: 20px;
+    
+    }
+    .periodo{
+        position: relative;
+        right: 70px;
+        font-size: 20px;
+    
+    }
+    .status{
+        position: relative;
+        right: 70px;
+        top: 15px;
+        font-size: 20px;
+    
+    
+}
