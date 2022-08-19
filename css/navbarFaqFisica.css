@@ -25,16 +25,41 @@ ul.topnav li a {
 
 ul.topnav li a:hover:not(.active) {background-color: rgb(224, 222, 222);}
 
-ul.topnav li a.active {background-color: #04AA6D;}
+ul.topnav li a.active {background-color: #c7c7c7;}
 
-ul.topnav li.right {float: right;}
-ul.topnav li.inicio {margin-left: 700px;}
+ul.topnav li.right {
+  float: right;
+  margin-right: 70px;
+}
+ul.topnav li.inicio {margin-left: 500px;}
 
 .redrumLogo {
+  margin-top: 12px;
+  width: 50px;
+}
+
+.notificacaoLogo {
+  width: 50px;
+}
+
+.bancosLogo {
+  width: 50px;
+}
+
+.faqLogo {
+  width: 50px;
+}
+
+.inicioLogo {
+  width: 50px;
+}
+
+.perfilLogo {
   width: 50px;
 }
 
 .inputPesquisar {
+  margin-top: 20px;
     display: inline-block;
     float: initial;
     width: 100%;
@@ -52,7 +77,7 @@ ul.topnav li.inicio {margin-left: 700px;}
 .btnPesquisar {
     display: inline-block;
     font-weight: 400;
-    margin-top: 14px;
+    margin-top: 34px;
     text-align: center;
     white-space: nowrap;
     vertical-align: middle;
