@@ -192,22 +192,22 @@ input[type='file']{
 }
 @media screen and (max-width :1800px){
     .container{
-        top: 15%;
+        top: 25%;
         width: 250px;
         height: 70%;
     }
     .container_feed {
         position: absolute;
-        top: 15%;
+        top: 25%;
         left: 25%;
         width: 50%;
         height: 300%;
        
     }
     #imgFoto{
-        right: 65%;
+        right: 62%;
         max-width: 100px;
-        margin-top: 30%;
+        margin-top: 20%;
     }
     .nome{
         position: relative;

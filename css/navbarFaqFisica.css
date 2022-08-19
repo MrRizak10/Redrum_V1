@@ -104,3 +104,37 @@ ul.topnav li.inicio {margin-left: 400px;}
   ul.topnav li.right, 
   ul.topnav li {float: none;}
 }
+@media screen and (max-width :1800px){
+  .bancosLogo{
+    width: 30px;
+  }
+  ul.topnav li.inicio{
+    margin-left: 77px;
+  }
+  .redrumLogo{
+    width: 40px;
+  }
+ 
+  
+  .btnPesquisar{
+    width: 100%;
+  }
+  .inicioLogo{
+    width: 30px;
+  }
+  .notificacaoLogo{
+    width: 30px;
+  }
+  .perfilLogo{
+    width: 30px;
+  }
+  .faqLogo{
+    width: 30px;
+  }
+  .inputPesquisar{
+    width:80% ;
+  
+  }
+
+
+}
