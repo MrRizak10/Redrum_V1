@@ -7,13 +7,13 @@
     width: 900px;
     display: flex;
     justify-content: center;
-    margin-top: 20%;
-    right: 30%;
+    margin-top: -19%;
+    right: 12%;
 }
 .container_6 .urna_6{
     position: relative;
     width: 250px;
-    background-color: antiquewhite;
+    background-color: #fff;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -120,5 +120,5 @@
     width: 90%;
     transition: 0.6s;
 }
-.painel_6 button:hover{color: #fff;}
+.painel_6 button:hover{color: rgb(2, 2, 2);}
 .painel_6 button:active{box-shadow: 1px 1px 5px rgb(0,0,0,0.3);}
