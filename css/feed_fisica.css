@@ -205,6 +205,7 @@ input[type='file']{
        
     }
     #imgFoto{
+        position: relative;
         right: 62%;
         max-width: 100px;
         margin-top: 20%;

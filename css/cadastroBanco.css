@@ -80,7 +80,7 @@ img{
     height: 6%;
     border-radius: 16px;
 }
-#senha{
+#password{
     font-size: 20px;
     text-align: center;
     position: relative;
@@ -97,7 +97,7 @@ img{
     height: 6%;
     border-radius: 16px;
 }
-#confirmar_senha{
+#confirm_password{
     font-size: 20px;
     text-align: center;
     position: relative;

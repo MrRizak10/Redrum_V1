@@ -190,7 +190,7 @@ input[type='file']{
     background-color: rgb(180,180,180);
     border: 5px solid #111;
 }
-@media screen and (max-width :1800px){
+/* @media screen and (max-width :1800px){
     .container{
         top: 15%;
         width: 250px;
@@ -241,5 +241,161 @@ input[type='file']{
         top: 15px;
         font-size: 20px;   
 }
+  
+} */
+@media screen and (max-width :1800px){
+    .container{
+        top: 25%;
+        width: 250px;
+        height: 70%;
+    }
+    .container_feed {
+        position: absolute;
+        top: 25%;
+        left: 25%;
+        width: 50%;
+        height: 300%;
+       
+    }
+    #imgFoto{
+        position: relative;
+        right: 62%;
+        max-width: 100px;
+        margin-top: 20%;
+    }
+    .nome{
+        position: relative;
+        top: 40%;
+        left: 10px;
+        font-size: 20px;
+    }
+    .sangue{
+        position: relative;
+        top: 44%;
+        left: 10px;
+        font-size: 20px;
+    
+    }
+    .cidade{
+        position: relative;
+        top: 38%;
+        left: 70px;
+        font-size: 20px;
+    }
+    .estado{
+        position: relative;
+        left: 85px;
+        top: -23px;
+        font-size: 20px;
+    
+    }
+    .periodo{
+        position: relative;
+        right: 70px;
+        font-size: 20px;
+        top: -5px;
+    
+    }
+    .status{
+        position: relative;
+        right: 70px;
+        top: 15px;
+        font-size: 20px;   
+}
+    #clinicas{
+        position: relative;
+        width: 50px;
+        height: 50px;
+      
+    }
+    #label_clinicas{
+        position: relative;
+        font-size: 20px;
+        top: -17px;
+        left:10px;
+    }
+    .noticia_clinicas{
+        position: absolute;
+        top: 4%;
+        left: 10%;
+        width: 80%;
+        height: 16%;
+        padding: 20px;
+        border: 5px solid rgb(137, 137, 137);
+        border-radius: 16px;
+    }
+    
+    #santa_maria{
+        position: relative;
+        top: 20.9%;
+        width: 50px;
+        height: 50px;
+        right: 120px;
+    }
+    #label_santaMaria{
+        position: relative;
+        font-size: 20px;
+        top: 19.9%;
+        right:19%;
+    }
+    .noticia_santaMaria{
+        position: absolute;
+        top: 25%;
+        left: 10%;
+        width: 80%;
+        height: 17%;
+        padding: 20px;
+        border: 5px solid rgb(137, 137, 137);
+        border-radius: 16px;
+    }
+    #sao_camilo{
+        top: 44%;
+        position: relative;
+        width: 50px;
+        height: 50px;
+        right: 270px;
+    }
+    #label_saoCamilo{
+        position: relative;
+        font-size: 20px;
+        top: 42.8%;
+        right:43%;
+    }
+    .noticia_saoCamilo{
+        position: absolute;
+        top: 48%;
+        left: 10%;
+        width: 80%;
+        height: 19%;
+        padding: 20px;
+        border: 5px solid rgb(137, 137, 137);
+        border-radius: 16px;
+    }
+    #mae_de_deus{
+        top: 70%;
+        position: relative;
+        width: 50px;
+        height: 50px;
+        right: 415px;
+    }
+    #label_maeDeDeus{
+        position: relative;
+        font-size: 20px;
+        top: 68.8%;
+        right:68%;
+    }
+    .noticia_maeDeDeus{
+        position: absolute;
+        top: 73%;
+        left: 10%;
+        width: 80%;
+        height: 20%;
+        padding: 20px;
+        border: 5px solid rgb(137, 137, 137);
+        border-radius: 16px;
+    }
+
+
+  
   
 }
