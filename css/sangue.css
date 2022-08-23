@@ -13,17 +13,13 @@ body{
     background-color: #fff;
 }
 
-.divTopNav {
-  
-}
-
 .container{
     position: relative;
     width: 900px;
     display: flex;
-    justify-content: center;
-    margin-top: 1%;
-    right: 40%;
+    justify-content: left;
+    margin-top: 2%;
+
 }
 
 .container .urna{

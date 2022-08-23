@@ -6,9 +6,9 @@
     position: relative;
     width: 900px;
     display: flex;
-    justify-content: center;
-    margin-top: -19%;
-    right: 12%;
+    justify-content: right;
+    margin-top: 2%;
+
 }
 .container_6 .urna_6{
     position: relative;
