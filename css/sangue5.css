@@ -6,8 +6,8 @@
     position: relative;
     width: 900px;
     display: flex;
-    justify-content: right;
-    margin-top: 2%;
+    margin-top: 5%;
+   
 
 }
 
@@ -18,7 +18,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 300px;
+    height: 500px;
     border-radius: 5px;
     text-align: center;
     overflow: hidden;

@@ -6,8 +6,9 @@
     position: relative;
     width: 900px;
     display: flex;
-    justify-content: center;
-    margin-top: 2%;
+  
+    margin-top: -23%;
+    margin-left: 80%;
 
 }
 .container_4 .urna_4{
