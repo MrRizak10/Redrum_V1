@@ -1,5 +1,5 @@
 body{
-    background-color: antiquewhite;
+    background-color: aliceblue;
 }
 *{
     margin: 0 auto;
@@ -16,22 +16,23 @@ input[type='file']{
     width: 100%;
 }
 .container1 {
+    background-color: #ffffff;
     position: absolute;
-    top: 15%;
+    top: 25%;
     left: 1.5%;
     width: 300px;
     height: 70%;
     padding: 20px;
-    border: 5px solid rgb(137, 137, 137);
+    box-shadow: 0px 3px 6px #000000;
     border-radius: 16px;
 }
 .container_feed {
     background-color:#FFFFFF;
     position: absolute;
     top: 15%;
-    left: 25%;
-    width: 40px;
-    height: 200px;
+    right: 15%;
+    width: 50%;
+    height: 250%;
     padding: 20px;
     box-shadow: 0px 3px 6px #000000;
     border-radius: 16px;
@@ -117,7 +118,7 @@ input[type='file']{
     position: relative;
     font-size: 20px;
     top: 19%;
-    right:15%;
+    right:13%;
 }
 .noticia_santaMaria{
     position: absolute;
@@ -140,7 +141,7 @@ input[type='file']{
     position: relative;
     font-size: 20px;
     top: 44%;
-    right:37%;
+    right:30%;
 }
 .noticia_saoCamilo{
     position: absolute;
@@ -157,13 +158,13 @@ input[type='file']{
     position: relative;
     width: 50px;
     height: 50px;
-    right: 415px;
+    right: 420px;
 }
 #label_maeDeDeus{
     position: relative;
     font-size: 20px;
     top: 69%;
-    right:58%;
+    right:47%;
 }
 .noticia_maeDeDeus{
     position: absolute;
@@ -181,7 +182,7 @@ input[type='file']{
     
     position: relative;
     right: 117%;
-    margin-top: 15%;
+    margin-top: 35%;
     max-width: 150px;
     width: 100%;
     padding: 10px;
@@ -197,7 +198,7 @@ input[type='file']{
 }
 @media screen and (max-width :1800px){
     .container{
-        top: 25%;
+        top: 1%;
         width: 250px;
         height: 70%;
     }

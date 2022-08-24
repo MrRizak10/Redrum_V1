@@ -21,17 +21,24 @@ ul.topnav li a {
   text-align: center;
   padding: 14px 15px;
   text-decoration: none;
+  right: 20px;
 }
 
-ul.topnav li a:hover:not(.active) {background-color: rgb(224, 222, 222);}
+ul.topnav li a:hover:not(.active) {
+  background-color: rgb(224, 222, 222);
+}
 
-ul.topnav li a.active {background-color: #c7c7c7;}
+ul.topnav li a.active {
+  background-color: #c7c7c7;
+}
 
 ul.topnav li.right {
   float: right;
   margin-left: 200px;
 }
-ul.topnav li.inicio {margin-left: 615px;}
+ul.topnav li.inicio {
+  margin-left: 230px;
+}
 
 .redrumLogo {
   margin-top: 12px;
