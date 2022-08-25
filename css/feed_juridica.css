@@ -7,9 +7,7 @@ body{
     box-sizing: border-box;
     border:none;
 }
-input[type='file']{
-    display: none;
-}
+
 
 .max-width{
     max-width: 500px;
@@ -191,11 +189,7 @@ input[type='file']{
     border: 5px solid #ccc;
     border-radius: 50%;
     cursor: pointer;
-    transition: background .3s;
-}
-#imgFoto:hover{
-    background-color: rgb(180,180,180);
-    border: 5px solid #111;
+
 }
 @media screen and (min-width :1800px){
     .container{
