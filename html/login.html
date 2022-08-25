@@ -9,18 +9,26 @@
 </head>
 <body>
  
-    <div class="container" >
+    <div class="container">
+        <!--<form name = "login" method="get" action>
+        <input type="radio" name="imagem" id="i2" value="user"/>
+        <label class="l2" for="i2" ><img src="/img/user.png" alt="">Sou usuário</label>
+        <input type="radio" name="imagem" id="i1" value="hospital"/>
+        <label class="l1" for="i1" ><img src="/img/hospital.png" alt="">Sou banco de sangue</label>-->
+
         <input type="text" name="usuario" id="usuario"value="" placeholder="Digite seu Email aqui">
         <br><br>
         <input type="password" name="senha" id="senha" value="" placeholder="Digite sua Senha  aqui" >
         <br><br>
-        <a href="/html/feed_fisica.html"> <input type="submit" name="button" id="button" value="Entrar"></a>
+        <a href="feed_fisica.html"><input type="submit" name="button" id="button" value="Entrar"></a>
+        <!--<input onclick="redirect()" type="submit" name="button" id="button" value="Entrar">-->
+        </form>
                 
         
 
     </div>
     <div class="logo">
-        <img src="/img/redrum.PNG">
+        <img src="/img/redrum.PNG" class="imgR">
     </div>
     <div class="letra_r">
         <label>R</label>
@@ -44,4 +52,13 @@
     </div>
         
 </body>
+<script>
+    function redirect() {
+        if (document.querySelector('input[name="imagem"]:checked').value == "user"){
+            alert('user');
+        } else {
+            alert('banco');
+        }
+    }
+</script>
 </html>
