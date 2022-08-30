@@ -44,7 +44,10 @@ ul.topnav li.inicio {
   margin-top: 12px;
   width: 50px;
 }
-
+.sairLogo{
+  width: 32px;
+  
+}
 .notificacaoLogo {
   width: 50px;
 }
