@@ -43,7 +43,7 @@ body{
     border-radius: 6px;
 }
 
-  img.imgR {
+  img {
     margin-left: 150px;
     margin-top: 30px;
     width: 200px;
@@ -95,7 +95,7 @@ body{
       width: 290px;
       height: 40px;
     }
-    img.imgR{
+    img{
       margin-top: 10px;
       width: 150px;
       height: 150px;
@@ -125,7 +125,7 @@ body{
   }
     
   
-    
+/* 
   input[type="radio"] {
     visibility: hidden;
 }
@@ -148,5 +148,67 @@ input[type="radio"]:checked+label {
 border-color: #37E2D5;
 }
 img {
-height: 50px;
+height: 500px;
+}*/
+@media screen and (max-width :400px){
+  .container{
+    margin-left: 13px;
+    top: 26%;
+    width: 234px;
+    height: 187px;
+  }
+  #usuario{
+    top: 30px;
+    font-size: 8px;
+    width: 230px;
+    height: 20px;
+  }
+  #senha{
+    top: 40px;
+    font-size:8px;
+    width: 230px;
+    height: 20px;
+  }
+  img{
+    display: none;
+    margin-top: 4px;
+    width: 100px;
+    height: 100px;
+    margin-left: 20px;
+  }
+  #button{
+    position: relative;
+    top: 17px;
+    width: 100px;
+    height: 30px;
+    margin-left:65px;
+    font-size: 8px;
+  }
+  .texto_cadastro{
+    position: relative;
+    font-size: 15px;
+    margin-left: 75px;
+    margin-top: 266px;
+  }
+  .nome_logo{
+    position: relative;
+    font-size: 62px;
+    margin-left: 33.4%;
+    margin-top: -176px;
+  }
+  .letra_r{
+    position: relative;
+    font-size: 62px;
+    margin-left: 20.4%;
+    margin-top: 90px;
+    
+  }
+  .texto{
+    display: none;
+    position: relative;
+    margin-left: 9.4%;
+    margin-top: -98px;
+    font-size: 14px
+  }
+
 }
