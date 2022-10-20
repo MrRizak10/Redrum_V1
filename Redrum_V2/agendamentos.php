@@ -35,28 +35,29 @@
 				<div class="row">
 					<div class="col-12 col-lg-12">
 						<div class="card">
-							<div class="card-header"><h3>Hemocentros</h3>
+							<div class="card-header"><h3>Agendamentos</h3>
 							Clique duplo para ver detalhes
+							<a href="agendamentos_inclui.php"><button type="button" class="btn btn-light px-5"> Adicionar</button></a>
 							</div>
 							<div class="table-responsive">
 								<table class="table align-items-center table-flush table-borderless">
 									<thead>
 										<tr>
-											<th width="50%">Nome do Hemocentro/Banco de Sangue</th>
-											<th width="10%">Telefone</th>
-											<th width="40%">E-mail</th>
+											<th width="10%">Data</th>
+											<th width="10%">Hora</th>
+											<th width="80">Local da Doação</th>
 										</tr>
 									</thead>
 									<tbody>
 									<?php 
 									// conexão
-									$sql = "SELECT idUsuario, Nome, Telefone, Email ".
-											"FROM usuarios ".
-											"WHERE (idTipo='H')";
+									$sql = "SELECT a.idAgendamento, DATE_FORMAT(a.dtAgendamento,'%d/%m/%Y'), a.hrAgendamento, u.Nome ".
+											"FROM agendamentos a, usuarios u ".
+											"WHERE (a.idHemocentro=u.idUsuario)";
 									$result = mysqli_query($conn, $sql);
 									while ($row = mysqli_fetch_array($result, MYSQLI_NUM))
 									{ ?>
-										<tr ondblclick="document.location='hemocentros_mostra.php?c=<?php echo $row[0];?>';">
+										<tr ondblclick="document.location='agendamentos_altera.php?c=<?php echo $row[0];?>';">
 											<td><?php echo $row[1];?></td>
 											<td><?php echo $row[2];?></td>
 											<td><?php echo $row[3];?></td>

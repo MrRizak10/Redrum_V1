@@ -43,14 +43,15 @@
 											<th width="10%">Hora</th>
 											<th width="40%">Mensagem</th>
 											<th width="30%">Hemocentro</th>
-											<th width="10%">Status</th>
+											<th width="10%">Lida</th>
+											<th width="10%">Ação</th>
 										</tr>
 									</thead>
 									<tbody>
 									<?php 
-									$sql = "SELECT n.idNotificacao,n.dtNotificacao,n.hrNotificaco,n.flStatus,u.Nome,n.flTexto ".
+									$sql = "SELECT n.idNotificacao,n.dtNotificacao,n.hrNotificaco,n.flStatus,u.Nome,n.dsTexto ".
 											"FROM notificacoes n, usuarios u ".
-											"WHERE (n.idUsuario=$codigo) and (n.idUsuario=u.idUsuario) ".
+											"WHERE (n.idUsuario=$codigo) and (n.idHemocentro=u.idUsuario) ".
 											"ORDER BY n.idNotificacao DESC";
 									// conexão
 									$result = mysqli_query($conn, $sql);
@@ -61,7 +62,8 @@
 											<td><?php echo $row[2];?></td>
 											<td><?php echo $row[4];?></td>
 											<td><?php echo $row[5];?></td>
-											<td><?php echo $row[3];?></td>
+											<td><a href="notificacoes_alterar.php?c=<?php echo $row[0];?>"><?php echo ($row[3]=='S'?'Sim':'Não');?></a></td>
+											<td>Exclui</td>
 										</tr>
 									<?php
 									} ?>
